@@ -1,0 +1,18 @@
+
+services:
+  - type: web
+    name: internship-telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python telegram_internship_bot.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: YOUR_BOT_TOKEN
+      - key: DB_NAME
+        value: u846003421_interns
+      - key: DB_USER
+        value: u846003421_roopesh
+      - key: DB_PASSWORD
+        value: Roopesh@408719
+      - key: DB_HOST
+        value: srv1555.hstgr.io
